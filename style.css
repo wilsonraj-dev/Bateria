@@ -22,6 +22,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
 .key {
     width: 80px;
     height: 80px;
@@ -60,6 +61,48 @@ h1 {
 }
 .composer button:hover {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.chip-violao {
+    display: inline-block;
+    padding: 0 25px;
+    height: 200px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+  
+.chip-violao img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 200px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+.chip-bateria {
+    padding: 0 25px;
+    height: 200px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    float: right;
+}
+  
+.chip-bateria img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 200px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+.buttons {
+    background-color: transparent;
+    border: none;
+    border-radius: none;
 }
 
 footer {
