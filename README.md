@@ -1,4 +1,4 @@
-<h1 align="center"> Bateria</h1>
+<h1 align="center"> Música Online</h1>
 
 ## ✨ Tecnologias
 
